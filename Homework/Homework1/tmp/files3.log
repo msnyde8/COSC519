@@ -1,0 +1,77 @@
+    1  uname -a
+    2  history
+    3  sudo -
+    4  sudo su -
+    5  sudo -i
+    6  mkdir /home/mjs/tmp
+    7  touch /home/mjs/tmp/file.txt
+    8  ls -al /home/mjs/tmp/file.txt 
+    9  chmod 644 /home/mjs/tmp/file.txt 
+   10  chown root:root /home/mjs/tmp/file.txt 
+   11  chown mjs:mjs /home/mjs/tmp/file.txt 
+   12  tar -czf hw_tmp.tar.gz /home/mjs/tmp/*
+   13  pwd
+   14  ls
+   15  md5sum hw_tmp.tar.gz 
+   16  date
+   17  cat /home/mjs/tmp/file.txt 
+   18  cat hw_tmp.tar.gz 
+   19  ls
+   20  cat Videos/
+   21  vi /home/mjs/tmp/file.txt 
+   22  cat /home/mjs/tmp/file.txt 
+   23  cp /home/mjs/tmp/file.txt /home/mjs/tmp/file2.txt
+   24  cp /home/mjs/tmp/file.txt /home/mjs/fileA.txt
+   25  mv /home/mjs/tmp/file2.txt /home/mjs/tmp/fileB.txt
+   26  mv /home/mjs/tmp/fileB.txt /home/mjs/files.log
+   27  pwd
+   28  cd -
+   29  cd /home/mjs/tmp/
+   30  pwd
+   31  cd -
+   32  man mount
+   33  vi /home/mjs/man.txt
+   34  top
+   35  vi /home/mjs/top.txt
+   36  rm /home/mjs/top.txt
+   37  ps -ef | grep gnome
+   38  kill 19320
+   39  pkill -9 grep
+   40  whereis ifconfing
+   41  whereis ifconfig
+   42  service network restart
+   43  alias lsl = `ls -al`
+   44  alias lsl = "ls -al
+"
+   45  du -ck /home/user
+   46  du -ck /home/mjs
+   47  rm -r /home/mjs/tmp/
+   48  rm /home/mjs/files.log 
+   49  echo $LD_LIBRARY_PATH
+   50  passwd
+   51  mount /dev/sb1 /dev/usb
+   52  sudo -i
+   53  ifconfig
+   54  netstat -ntlp
+   55  env
+   56  echo $LOGNAME
+   57  cp /home/mjs/fileA.txt /home/mjs/file2.txt
+   58  gzip /home/mjs/file2.txt 
+   59  ifdown eth0
+   60  ifup eth0
+   61  less /home/mjs/fileA.txt 
+   62  vi /home/mjs/less.txt
+   63  ln -s /home/mjs/fileA.txt /home/mjs/fileB.txt
+   64  pint 192.168.1.1
+   65  ping 192.168.1.1
+   66  which ifconfig
+   67  diff /home/mjs/fileA.txt /home/mjs/fileB.txt 
+   68  pwd
+   69  vi /home/mjs/file3.txt
+   70  diff /home/mjs/fileA.txt /home/mjs/file3.txt 
+   71  whoami
+   72  lsof
+   73  vi /home/mjs/files.log
+   74  vi /home/mjs/files2.log
+   75  history > home/mjs/files3.log
+   76  history > /home/mjs/files3.log

@@ -1,0 +1,1180 @@
+[mjs@localhost ~]$ man objdump
+[mjs@localhost ~]$ man nm
+[mjs@localhost ~]$ man bc
+[mjs@localhost ~]$ alias listal = 'ls -al'
+bash: alias: listal: not found
+bash: alias: =: not found
+bash: alias: ls -al: not found
+[mjs@localhost ~]$ alias $listal = 'ls -al'
+bash: alias: =: not found
+bash: alias: ls -al: not found
+[mjs@localhost ~]$ alias $listal 'ls -al'
+bash: alias: ls -al: not found
+[mjs@localhost ~]$ listal
+bash: listal: command not found...
+[mjs@localhost ~]$ aliases
+bash: aliases: command not found...
+[mjs@localhost ~]$ alias 'listal =ls -al'
+bash: alias: `listal ': invalid alias name
+[mjs@localhost ~]$ alias 'lsal =ls -al'
+bash: alias: `lsal ': invalid alias name
+[mjs@localhost ~]$ alias 'lsal = ls -al'
+bash: alias: `lsal ': invalid alias name
+[mjs@localhost ~]$ vi ~/.bashrc
+[mjs@localhost ~]$ source ~/.bashrc
+bash: alias: lsal: not found
+bash: alias: =: not found
+bash: alias: total: not found
+bash: alias: 3624: not found
+bash: alias: drwx------.: not found
+bash: alias: 18: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 4096: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 12:25: not found
+bash: alias: .: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 3: not found
+bash: alias: root: not found
+bash: alias: root: not found
+bash: alias: 16: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:28: not found
+bash: alias: ..: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 21: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 10:04: not found
+bash: alias: .aliases: not found
+bash: alias: -rw-------.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 296: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 12:25: not found
+bash: alias: .bash_history: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 18: not found
+bash: alias: Mar: not found
+bash: alias: 5: not found
+bash: alias: 2015: not found
+bash: alias: .bash_logout: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 193: not found
+bash: alias: Mar: not found
+bash: alias: 5: not found
+bash: alias: 2015: not found
+bash: alias: .bash_profile: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 253: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 12:25: not found
+bash: alias: .bashrc: not found
+bash: alias: drwx------.: not found
+bash: alias: 11: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 4096: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:08: not found
+bash: alias: .cache: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 487721: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 10:01: not found
+bash: alias: commands2.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 1052901: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 10:09: not found
+bash: alias: commands3.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 5504: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 10:51: not found
+bash: alias: commands4.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 10497: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:02: not found
+bash: alias: commands5.log: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 36953: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:30: not found
+bash: alias: commands6.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 53364: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:35: not found
+bash: alias: commands7.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 479119: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:56: not found
+bash: alias: commands.log: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 16: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 4096: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:43: not found
+bash: alias: .config: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Desktop: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Documents: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Downloads: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 334: not found
+bash: alias: Jan: not found
+bash: alias: 24: not found
+bash: alias: 2014: not found
+bash: alias: .emacs: not found
+bash: alias: -rw-------.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 16: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: .esd_auth: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 58: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 10:00: not found
+bash: alias: file2.txt.gz: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 33: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:39: not found
+bash: alias: file3.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 30: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:24: not found
+bash: alias: fileA.txt: not found
+bash: alias: lrwxrwxrwx.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 19: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:38: not found
+bash: alias: fileB.txt: not found
+bash: alias: ->: not found
+bash: alias: /home/mjs/fileA.txt: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 475243: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:43: not found
+bash: alias: files2.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 2065: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:45: not found
+bash: alias: files3.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 950569: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:41: not found
+bash: alias: files.log: not found
+bash: alias: drwxrwxr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 56: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:33: not found
+bash: alias: find_tmp: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 130: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:49: not found
+bash: alias: hw_tmp.tar.gz: not found
+bash: alias: -rw-------.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 934: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:44: not found
+bash: alias: .ICEauthority: not found
+bash: alias: drwx------.: not found
+bash: alias: 3: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 4096: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:41: not found
+bash: alias: .kde: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 82: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 10:49: not found
+bash: alias: less.txt: not found
+bash: alias: drwx------.: not found
+bash: alias: 3: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 18: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: .local: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 1003: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:27: not found
+bash: alias: man.txt: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 4: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 37: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:14: not found
+bash: alias: .mozilla: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Music: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 203: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:27: not found
+bash: alias: nm_A.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 202: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:27: not found
+bash: alias: nm_l.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 92: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:27: not found
+bash: alias: nm_p.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 182: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:24: not found
+bash: alias: objdump_dissassem.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 1964: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:24: not found
+bash: alias: objdump_header.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 10661: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:25: not found
+bash: alias: objdump_source.txt: not found
+bash: alias: drwxrwxr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: perl5: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 52: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:01: not found
+bash: alias: Pictures: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Public: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Templates: not found
+bash: alias: drwxrwxr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 56: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:32: not found
+bash: alias: tmp: not found
+bash: alias: -rw-r-----.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 5: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:44: not found
+bash: alias: .vboxclient-clipboard.pid: not found
+bash: alias: -rw-r-----.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 5: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:44: not found
+bash: alias: .vboxclient-display.pid: not found
+bash: alias: -rw-r-----.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 5: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:44: not found
+bash: alias: .vboxclient-draganddrop.pid: not found
+bash: alias: -rw-r-----.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 5: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:44: not found
+bash: alias: .vboxclient-seamless.pid: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Videos: not found
+bash: alias: -rw-------.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 3388: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 12:25: not found
+bash: alias: .viminfo: not found
+[mjs@localhost ~]$ vi ~/.bashrc
+[mjs@localhost ~]$ vi /etc/bashrc
+[mjs@localhost ~]$ dir
+commands2.log  Desktop	     files2.log     Music		   perl5
+commands3.log  Documents     files3.log     nm_A.txt		   Pictures
+commands4.log  Downloads     files.log	    nm_l.txt		   Public
+commands5.log  file2.txt.gz  find_tmp	    nm_p.txt		   Templates
+commands6.log  file3.txt     hw_tmp.tar.gz  objdump_dissassem.txt  tmp
+commands7.log  fileA.txt     less.txt	    objdump_header.txt	   Videos
+commands.log   fileB.txt     man.txt	    objdump_source.txt
+[mjs@localhost ~]$ vi ~/.aliases 
+[mjs@localhost ~]$ source ~/.bashrc
+bash: alias: lsal: not found
+bash: alias: =: not found
+bash: alias: total: not found
+bash: alias: 3620: not found
+bash: alias: drwx------.: not found
+bash: alias: 18: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 4096: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 12:26: not found
+bash: alias: .: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 3: not found
+bash: alias: root: not found
+bash: alias: root: not found
+bash: alias: 16: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:28: not found
+bash: alias: ..: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 0: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 12:26: not found
+bash: alias: .aliases: not found
+bash: alias: -rw-------.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 360: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 12:26: not found
+bash: alias: .bash_history: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 18: not found
+bash: alias: Mar: not found
+bash: alias: 5: not found
+bash: alias: 2015: not found
+bash: alias: .bash_logout: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 193: not found
+bash: alias: Mar: not found
+bash: alias: 5: not found
+bash: alias: 2015: not found
+bash: alias: .bash_profile: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 253: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 12:25: not found
+bash: alias: .bashrc: not found
+bash: alias: drwx------.: not found
+bash: alias: 11: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 4096: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:08: not found
+bash: alias: .cache: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 487721: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 10:01: not found
+bash: alias: commands2.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 1052901: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 10:09: not found
+bash: alias: commands3.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 5504: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 10:51: not found
+bash: alias: commands4.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 10497: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:02: not found
+bash: alias: commands5.log: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 36953: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:30: not found
+bash: alias: commands6.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 53364: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:35: not found
+bash: alias: commands7.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 479119: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:56: not found
+bash: alias: commands.log: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 16: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 4096: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:43: not found
+bash: alias: .config: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Desktop: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Documents: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Downloads: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 334: not found
+bash: alias: Jan: not found
+bash: alias: 24: not found
+bash: alias: 2014: not found
+bash: alias: .emacs: not found
+bash: alias: -rw-------.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 16: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: .esd_auth: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 58: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 10:00: not found
+bash: alias: file2.txt.gz: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 33: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:39: not found
+bash: alias: file3.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 30: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:24: not found
+bash: alias: fileA.txt: not found
+bash: alias: lrwxrwxrwx.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 19: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:38: not found
+bash: alias: fileB.txt: not found
+bash: alias: ->: not found
+bash: alias: /home/mjs/fileA.txt: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 475243: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:43: not found
+bash: alias: files2.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 2065: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:45: not found
+bash: alias: files3.log: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 950569: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:41: not found
+bash: alias: files.log: not found
+bash: alias: drwxrwxr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 56: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:33: not found
+bash: alias: find_tmp: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 130: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:49: not found
+bash: alias: hw_tmp.tar.gz: not found
+bash: alias: -rw-------.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 934: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:44: not found
+bash: alias: .ICEauthority: not found
+bash: alias: drwx------.: not found
+bash: alias: 3: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 4096: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:41: not found
+bash: alias: .kde: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 82: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 10:49: not found
+bash: alias: less.txt: not found
+bash: alias: drwx------.: not found
+bash: alias: 3: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 18: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: .local: not found
+bash: alias: -rw-rw-r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 1003: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 09:27: not found
+bash: alias: man.txt: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 4: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 37: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:14: not found
+bash: alias: .mozilla: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Music: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 203: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:27: not found
+bash: alias: nm_A.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 202: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:27: not found
+bash: alias: nm_l.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 92: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:27: not found
+bash: alias: nm_p.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 182: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:24: not found
+bash: alias: objdump_dissassem.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 1964: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:24: not found
+bash: alias: objdump_header.txt: not found
+bash: alias: -rw-r--r--.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 10661: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:25: not found
+bash: alias: objdump_source.txt: not found
+bash: alias: drwxrwxr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: perl5: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 52: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:01: not found
+bash: alias: Pictures: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Public: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Templates: not found
+bash: alias: drwxrwxr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 56: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:32: not found
+bash: alias: tmp: not found
+bash: alias: -rw-r-----.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 5: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:44: not found
+bash: alias: .vboxclient-clipboard.pid: not found
+bash: alias: -rw-r-----.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 5: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:44: not found
+bash: alias: .vboxclient-display.pid: not found
+bash: alias: -rw-r-----.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 5: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:44: not found
+bash: alias: .vboxclient-draganddrop.pid: not found
+bash: alias: -rw-r-----.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 5: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 11:44: not found
+bash: alias: .vboxclient-seamless.pid: not found
+bash: alias: drwxr-xr-x.: not found
+bash: alias: 2: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 6: not found
+bash: alias: Sep: not found
+bash: alias: 16: not found
+bash: alias: 16:36: not found
+bash: alias: Videos: not found
+bash: alias: -rw-------.: not found
+bash: alias: 1: not found
+bash: alias: mjs: not found
+bash: alias: mjs: not found
+bash: alias: 3495: not found
+bash: alias: Sep: not found
+bash: alias: 17: not found
+bash: alias: 12:26: not found
+bash: alias: .viminfo: not found
+[mjs@localhost ~]$ vi ~/.bashrc 
+[mjs@localhost ~]$ alias lsal = "ls -al"
+bash: alias: lsal: not found
+bash: alias: =: not found
+bash: alias: ls -al: not found
+[mjs@localhost ~]$ /usr/bin/aalias lsal = "ls -al"
+Display all 138 possibilities? (y or n)
+[mjs@localhost ~]$ /usr/bin/alalias lsal = "ls -al"
+alias       allec       alsa-delay  alsamixer   alsaunmute  
+allcm       allneeded   alsaloop    alsaucm     
+[mjs@localhost ~]$ /usr/bin/alias lsal = "ls -al"
+/usr/bin/alias: line 2: alias: lsal: not found
+/usr/bin/alias: line 2: alias: =: not found
+/usr/bin/alias: line 2: alias: ls -al: not found
+[mjs@localhost ~]$ source ~/.bashrc
+[mjs@localhost ~]$ vi ~/.bashrc 
+[mjs@localhost ~]$ source ~/.bashrc
+bash: alias: lsal: not found
+bash: alias: =: not found
+bash: alias: ls -al: not found
+[mjs@localhost ~]$ ^C
+[mjs@localhost ~]$ alias ls="ls -G"
+[mjs@localhost ~]$ alias ls="ls -G"
+[mjs@localhost ~]$ ls
+commands2.log  Desktop	     files2.log     Music		   perl5
+commands3.log  Documents     files3.log     nm_A.txt		   Pictures
+commands4.log  Downloads     files.log	    nm_l.txt		   Public
+commands5.log  file2.txt.gz  find_tmp	    nm_p.txt		   Templates
+commands6.log  file3.txt     hw_tmp.tar.gz  objdump_dissassem.txt  tmp
+commands7.log  fileA.txt     less.txt	    objdump_header.txt	   Videos
+commands.log   fileB.txt     man.txt	    objdump_source.txt
+[mjs@localhost ~]$ alias ls="ls"
+[mjs@localhost ~]$ ls
+commands2.log  Desktop	     files2.log     Music		   perl5
+commands3.log  Documents     files3.log     nm_A.txt		   Pictures
+commands4.log  Downloads     files.log	    nm_l.txt		   Public
+commands5.log  file2.txt.gz  find_tmp	    nm_p.txt		   Templates
+commands6.log  file3.txt     hw_tmp.tar.gz  objdump_dissassem.txt  tmp
+commands7.log  fileA.txt     less.txt	    objdump_header.txt	   Videos
+commands.log   fileB.txt     man.txt	    objdump_source.txt
+[mjs@localhost ~]$ alias lsal="ls -al"
+[mjs@localhost ~]$ lsal
+total 3620
+drwx------. 18 mjs  mjs     4096 Sep 17 12:29 .
+drwxr-xr-x.  3 root root      16 Sep 16 16:28 ..
+-rw-rw-r--.  1 mjs  mjs        0 Sep 17 12:26 .aliases
+-rw-------.  1 mjs  mjs      475 Sep 17 12:29 .bash_history
+-rw-r--r--.  1 mjs  mjs       18 Mar  5  2015 .bash_logout
+-rw-r--r--.  1 mjs  mjs      193 Mar  5  2015 .bash_profile
+-rw-r--r--.  1 mjs  mjs      253 Sep 17 12:29 .bashrc
+drwx------. 11 mjs  mjs     4096 Sep 17 11:08 .cache
+-rw-rw-r--.  1 mjs  mjs   487721 Sep 17 10:01 commands2.log
+-rw-rw-r--.  1 mjs  mjs  1052901 Sep 17 10:09 commands3.log
+-rw-rw-r--.  1 mjs  mjs     5504 Sep 17 10:51 commands4.log
+-rw-rw-r--.  1 mjs  mjs    10497 Sep 17 11:02 commands5.log
+-rw-r--r--.  1 mjs  mjs    36953 Sep 17 11:30 commands6.log
+-rw-rw-r--.  1 mjs  mjs    53364 Sep 17 11:35 commands7.log
+-rw-rw-r--.  1 mjs  mjs   479119 Sep 17 09:56 commands.log
+drwxr-xr-x. 16 mjs  mjs     4096 Sep 17 11:43 .config
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Desktop
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Documents
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Downloads
+-rw-r--r--.  1 mjs  mjs      334 Jan 24  2014 .emacs
+-rw-------.  1 mjs  mjs       16 Sep 16 16:36 .esd_auth
+-rw-r--r--.  1 mjs  mjs       58 Sep 17 10:00 file2.txt.gz
+-rw-rw-r--.  1 mjs  mjs       33 Sep 17 09:39 file3.txt
+-rw-r--r--.  1 mjs  mjs       30 Sep 17 09:24 fileA.txt
+lrwxrwxrwx.  1 mjs  mjs       19 Sep 17 09:38 fileB.txt -> /home/mjs/fileA.txt
+-rw-rw-r--.  1 mjs  mjs   475243 Sep 17 09:43 files2.log
+-rw-rw-r--.  1 mjs  mjs     2065 Sep 17 09:45 files3.log
+-rw-rw-r--.  1 mjs  mjs   950569 Sep 17 09:41 files.log
+drwxrwxr-x.  2 mjs  mjs       56 Sep 17 11:33 find_tmp
+-rw-rw-r--.  1 mjs  mjs      130 Sep 17 09:49 hw_tmp.tar.gz
+-rw-------.  1 mjs  mjs      934 Sep 17 11:44 .ICEauthority
+drwx------.  3 mjs  mjs     4096 Sep 16 16:41 .kde
+-rw-rw-r--.  1 mjs  mjs       82 Sep 17 10:49 less.txt
+drwx------.  3 mjs  mjs       18 Sep 16 16:36 .local
+-rw-rw-r--.  1 mjs  mjs     1003 Sep 17 09:27 man.txt
+drwxr-xr-x.  4 mjs  mjs       37 Sep 16 16:14 .mozilla
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Music
+-rw-r--r--.  1 mjs  mjs      203 Sep 17 11:27 nm_A.txt
+-rw-r--r--.  1 mjs  mjs      202 Sep 17 11:27 nm_l.txt
+-rw-r--r--.  1 mjs  mjs       92 Sep 17 11:27 nm_p.txt
+-rw-r--r--.  1 mjs  mjs      182 Sep 17 11:24 objdump_dissassem.txt
+-rw-r--r--.  1 mjs  mjs     1964 Sep 17 11:24 objdump_header.txt
+-rw-r--r--.  1 mjs  mjs    10661 Sep 17 11:25 objdump_source.txt
+drwxrwxr-x.  2 mjs  mjs        6 Sep 16 16:36 perl5
+drwxr-xr-x.  2 mjs  mjs       52 Sep 17 11:01 Pictures
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Public
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Templates
+drwxrwxr-x.  2 mjs  mjs       56 Sep 17 11:32 tmp
+-rw-r-----.  1 mjs  mjs        5 Sep 17 11:44 .vboxclient-clipboard.pid
+-rw-r-----.  1 mjs  mjs        5 Sep 17 11:44 .vboxclient-display.pid
+-rw-r-----.  1 mjs  mjs        5 Sep 17 11:44 .vboxclient-draganddrop.pid
+-rw-r-----.  1 mjs  mjs        5 Sep 17 11:44 .vboxclient-seamless.pid
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Videos
+-rw-------.  1 mjs  mjs     3639 Sep 17 12:29 .viminfo
+[mjs@localhost ~]$ vi commands
+commands2.log  commands4.log  commands6.log  commands.log   
+commands3.log  commands5.log  commands7.log  
+[mjs@localhost ~]$ vi commands8.log
+[mjs@localhost ~]$ ls -al 
+total 3620
+drwx------. 18 mjs  mjs     4096 Sep 17 12:32 .
+drwxr-xr-x.  3 root root      16 Sep 16 16:28 ..
+-rw-rw-r--.  1 mjs  mjs        0 Sep 17 12:26 .aliases
+-rw-------.  1 mjs  mjs      475 Sep 17 12:29 .bash_history
+-rw-r--r--.  1 mjs  mjs       18 Mar  5  2015 .bash_logout
+-rw-r--r--.  1 mjs  mjs      193 Mar  5  2015 .bash_profile
+-rw-r--r--.  1 mjs  mjs      253 Sep 17 12:29 .bashrc
+drwx------. 11 mjs  mjs     4096 Sep 17 11:08 .cache
+-rw-rw-r--.  1 mjs  mjs   487721 Sep 17 10:01 commands2.log
+-rw-rw-r--.  1 mjs  mjs  1052901 Sep 17 10:09 commands3.log
+-rw-rw-r--.  1 mjs  mjs     5504 Sep 17 10:51 commands4.log
+-rw-rw-r--.  1 mjs  mjs    10497 Sep 17 11:02 commands5.log
+-rw-r--r--.  1 mjs  mjs    36953 Sep 17 11:30 commands6.log
+-rw-rw-r--.  1 mjs  mjs    53364 Sep 17 11:35 commands7.log
+-rw-rw-r--.  1 mjs  mjs        0 Sep 17 12:32 commands8.log
+-rw-rw-r--.  1 mjs  mjs   479119 Sep 17 09:56 commands.log
+drwxr-xr-x. 16 mjs  mjs     4096 Sep 17 11:43 .config
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Desktop
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Documents
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Downloads
+-rw-r--r--.  1 mjs  mjs      334 Jan 24  2014 .emacs
+-rw-------.  1 mjs  mjs       16 Sep 16 16:36 .esd_auth
+-rw-r--r--.  1 mjs  mjs       58 Sep 17 10:00 file2.txt.gz
+-rw-rw-r--.  1 mjs  mjs       33 Sep 17 09:39 file3.txt
+-rw-r--r--.  1 mjs  mjs       30 Sep 17 09:24 fileA.txt
+lrwxrwxrwx.  1 mjs  mjs       19 Sep 17 09:38 fileB.txt -> /home/mjs/fileA.txt
+-rw-rw-r--.  1 mjs  mjs   475243 Sep 17 09:43 files2.log
+-rw-rw-r--.  1 mjs  mjs     2065 Sep 17 09:45 files3.log
+-rw-rw-r--.  1 mjs  mjs   950569 Sep 17 09:41 files.log
+drwxrwxr-x.  2 mjs  mjs       56 Sep 17 11:33 find_tmp
+-rw-rw-r--.  1 mjs  mjs      130 Sep 17 09:49 hw_tmp.tar.gz
+-rw-------.  1 mjs  mjs      934 Sep 17 11:44 .ICEauthority
+drwx------.  3 mjs  mjs     4096 Sep 16 16:41 .kde
+-rw-rw-r--.  1 mjs  mjs       82 Sep 17 10:49 less.txt
+drwx------.  3 mjs  mjs       18 Sep 16 16:36 .local
+-rw-rw-r--.  1 mjs  mjs     1003 Sep 17 09:27 man.txt
+drwxr-xr-x.  4 mjs  mjs       37 Sep 16 16:14 .mozilla
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Music
+-rw-r--r--.  1 mjs  mjs      203 Sep 17 11:27 nm_A.txt
+-rw-r--r--.  1 mjs  mjs      202 Sep 17 11:27 nm_l.txt
+-rw-r--r--.  1 mjs  mjs       92 Sep 17 11:27 nm_p.txt
+-rw-r--r--.  1 mjs  mjs      182 Sep 17 11:24 objdump_dissassem.txt
+-rw-r--r--.  1 mjs  mjs     1964 Sep 17 11:24 objdump_header.txt
+-rw-r--r--.  1 mjs  mjs    10661 Sep 17 11:25 objdump_source.txt
+drwxrwxr-x.  2 mjs  mjs        6 Sep 16 16:36 perl5
+drwxr-xr-x.  2 mjs  mjs       52 Sep 17 11:01 Pictures
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Public
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Templates
+drwxrwxr-x.  2 mjs  mjs       56 Sep 17 11:32 tmp
+-rw-r-----.  1 mjs  mjs        5 Sep 17 11:44 .vboxclient-clipboard.pid
+-rw-r-----.  1 mjs  mjs        5 Sep 17 11:44 .vboxclient-display.pid
+-rw-r-----.  1 mjs  mjs        5 Sep 17 11:44 .vboxclient-draganddrop.pid
+-rw-r-----.  1 mjs  mjs        5 Sep 17 11:44 .vboxclient-seamless.pid
+drwxr-xr-x.  2 mjs  mjs        6 Sep 16 16:36 Videos
+-rw-------.  1 mjs  mjs     3677 Sep 17 12:32 .viminfo
+[mjs@localhost ~]$ 
+

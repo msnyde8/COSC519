@@ -1,0 +1,3 @@
+/usr/lib64/python2.7/config/python.o:                 U _GLOBAL_OFFSET_TABLE_
+/usr/lib64/python2.7/config/python.o:0000000000000000 T main
+/usr/lib64/python2.7/config/python.o:                 U Py_Main

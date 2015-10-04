@@ -1,0 +1,29 @@
+MOUNT(8)                      System Administration                     MOUNT(8)
+
+NAME
+       mount - mount a filesystem
+
+SYNOPSIS
+       mount [-lhV]
+
+       mount -a [-fFnrsvw] [-t vfstype] [-O optlist]
+
+       mount [-fnrsvw] [-o option[,option]...]  device|dir
+
+       mount [-fnrsvw] [-t vfstype] [-o options] device dir
+
+DESCRIPTION
+       All  files  accessible in a Unix system are arranged in one big tree, the
+       file hierarchy, rooted at /.  These files can be spread out over  several
+       devices.  The mount command serves to attach the filesystem found on some
+       device to the big file  tree.  Conversely,  the  umount(8)  command  will
+       detach it again.
+
+       The standard form of the mount command, is
+
+              mount -t type device dir
+
+       This  tells the kernel to attach the filesystem found on device (which is
+       of type type) at the directory dir.  The previous contents (if  any)  and
+ Manual page mount(8) line 1 (press h for help or q to quit)
+

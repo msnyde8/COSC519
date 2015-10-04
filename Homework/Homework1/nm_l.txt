@@ -1,0 +1,3 @@
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T main	/builddir/build/BUILD/Python-2.7.5/Modules/python.c:10
+                 U Py_Main	/builddir/build/BUILD/Python-2.7.5/Modules/python.c:23

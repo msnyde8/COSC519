@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$#" -ne 2 ]; then
+	echo "Incorrect number of parameters"
+else
+	sum=$[$1 + $2]
+	echo "Sum of $1 + $2 = $sum"
+fi

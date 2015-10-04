@@ -1,0 +1,8 @@
+
+/usr/lib64/python2.7/config/python.o:     file format elf64-x86-64
+
+
+Disassembly of section .text.startup:
+
+0000000000000000 <main>:
+   0:	e9 00 00 00 00       	jmpq   5 <main+0x5>

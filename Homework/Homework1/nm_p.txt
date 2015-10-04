@@ -1,0 +1,3 @@
+0000000000000000 T main
+                 U _GLOBAL_OFFSET_TABLE_
+                 U Py_Main

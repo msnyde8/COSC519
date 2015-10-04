@@ -1,0 +1,212 @@
+[mjs@localhost ~]$ ssh mjs@192.168.1.1
+ssh: connect to host 192.168.1.1 port 22: Connection refused
+[mjs@localhost ~]$ top
+
+top - 10:48:05 up 24 min,  2 users,  load average: 0.17, 0.09, 0.11
+Tasks: 168 total,   2 running, 166 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.7 us,  0.9 sy,  0.0 ni, 95.9 id,  0.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :   759112 total,    64384 free,   575920 used,   118808 buff/cache
+KiB Swap:  1572860 total,  1295072 free,   277788 used.    59240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND      
+ 5238 mjs       20   0  130020   1668   1200 R  5.3  0.2   0:00.03 top          
+    1 root      20   0   60600   4612   1224 S  0.0  0.6   0:01.32 systemd      
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd     
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.10 ksoftirqd/0  
+    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H 
+    6 root      20   0       0      0      0 S  0.0  0.0   0:00.02 kworker/u2:0 
+    7 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0  
+    8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh       
+    9 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcuob/0      
+   10 root      20   0       0      0      0 S  0.0  0.0   0:00.52 rcu_sched    
+   11 root      20   0       0      0      0 R  0.0  0.0   0:00.44 rcuos/0      
+   12 root      rt   0       0      0      0 S  0.0  0.0   0:00.01 watchdog/0   
+   13 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 khelper      
+   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs    
+   15 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns        
+   16 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback    
+   17 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd  
+[mjs@localhost ~]$ env
+XDG_VTNR=1
+SSH_AGENT_PID=2969
+XDG_SESSION_ID=1
+HOSTNAME=localhost.localdomain
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+GPG_AGENT_INFO=/run/user/1000/keyring-v3uraW/gpg:0:1
+VTE_VERSION=3406
+TERM=xterm-256color
+SHELL=/bin/bash
+XDG_MENU_PREFIX=gnome-
+HISTSIZE=1000
+PERL5LIB=/home/mjs/perl5/lib/perl5:
+GJS_DEBUG_OUTPUT=stderr
+WINDOWID=39845894
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-v3uraW
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+PERL_MB_OPT=--install_base /home/mjs/perl5
+IMSETTINGS_MODULE=none
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=mjs
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+SSH_AUTH_SOCK=/run/user/1000/keyring-v3uraW/ssh
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2783,unix/unix:/tmp/.ICE-unix/2783
+USERNAME=mjs
+GNOME_SHELL_SESSION_MODE=classic
+PATH=/usr/lib64/qt-3.3/bin:/home/mjs/perl5/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/mjs/.local/bin:/home/mjs/bin
+MAIL=/var/spool/mail/mjs
+DESKTOP_SESSION=gnome-classic
+QT_IM_MODULE=ibus
+PWD=/home/mjs
+XMODIFIERS=@im=ibus
+GNOME_KEYRING_PID=2781
+LANG=en_US.utf8
+GDM_LANG=en_US.utf8
+KDEDIRS=/usr
+GDMSESSION=gnome-classic
+HISTCONTROL=ignoredups
+HOME=/home/mjs
+XDG_SEAT=seat0
+SHLVL=2
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PERL_LOCAL_LIB_ROOT=:/home/mjs/perl5
+LOGNAME=mjs
+QTLIB=/usr/lib64/qt-3.3/lib
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-PKGMNdfEoO,guid=3ada127b0e41b6e1efa1376955faccf5
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+WINDOWPATH=1
+DISPLAY=:0
+XDG_RUNTIME_DIR=/run/user/1000
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+PERL_MM_OPT=INSTALL_BASE=/home/mjs/perl5
+COLORTERM=gnome-terminal
+XAUTHORITY=/run/gdm/auth-for-mjs-a72yKG/database
+_=/usr/bin/env
+[mjs@localhost ~]$ less /home/mjs/file3.txt 
+[mjs@localhost ~]$ less /home/mjs/file3.txt 
+[mjs@localhost ~]$ vi /home/mjs/less.txt 
+[mjs@localhost ~]$ vi /home/mjs/commands
+commands2.log  commands3.log  commands.log   
+[mjs@localhost ~]$ vi /home/mjs/commands4.log
+[mjs@localhost ~]$ head /home/mjs/file3.txt 
+Another text file for homework 1
+[mjs@localhost ~]$ tail -f /home/mjs/file3.txt 
+file2.txt.gz  fileA.txt     files2.log    files.log     
+file3.txt     fileB.txt     files3.log    
+[mjs@localhost ~]$ tail -f /home/mjs/fileA.txt 
+This is a temp file for hw 1.
+^C
+[mjs@localhost ~]$ alias lsl = "ls al"
+bash: alias: lsl: not found
+bash: alias: =: not found
+bash: alias: ls al: not found
+[mjs@localhost ~]$ lsl
+bash: lsl: command not found...
+[mjs@localhost ~]$ bash
+[mjs@localhost ~]$ alias lsl = "ls al"
+bash: alias: lsl: not found
+bash: alias: =: not found
+bash: alias: ls al: not found
+[mjs@localhost ~]$ env
+XDG_VTNR=1
+XDG_SESSION_ID=1
+SSH_AGENT_PID=2969
+HOSTNAME=localhost.localdomain
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+GPG_AGENT_INFO=/run/user/1000/keyring-v3uraW/gpg:0:1
+XDG_MENU_PREFIX=gnome-
+SHELL=/bin/bash
+TERM=xterm-256color
+VTE_VERSION=3406
+HISTSIZE=1000
+PERL5LIB=/home/mjs/perl5/lib/perl5:
+GJS_DEBUG_OUTPUT=stderr
+WINDOWID=39845894
+QTDIR=/usr/lib64/qt-3.3
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-v3uraW
+PERL_MB_OPT=--install_base /home/mjs/perl5
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+QTINC=/usr/lib64/qt-3.3/include
+QT_GRAPHICSSYSTEM_CHECKED=1
+IMSETTINGS_MODULE=none
+USER=mjs
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+SSH_AUTH_SOCK=/run/user/1000/keyring-v3uraW/ssh
+USERNAME=mjs
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2783,unix/unix:/tmp/.ICE-unix/2783
+GNOME_SHELL_SESSION_MODE=classic
+DESKTOP_SESSION=gnome-classic
+MAIL=/var/spool/mail/mjs
+PATH=/usr/lib64/qt-3.3/bin:/home/mjs/perl5/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/mjs/.local/bin:/home/mjs/bin
+QT_IM_MODULE=ibus
+PWD=/home/mjs
+XMODIFIERS=@im=ibus
+LANG=en_US.utf8
+GNOME_KEYRING_PID=2781
+GDM_LANG=en_US.utf8
+KDEDIRS=/usr
+GDMSESSION=gnome-classic
+HISTCONTROL=ignoredups
+SHLVL=3
+XDG_SEAT=seat0
+HOME=/home/mjs
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PERL_LOCAL_LIB_ROOT=:/home/mjs/perl5
+LOGNAME=mjs
+QTLIB=/usr/lib64/qt-3.3/lib
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-PKGMNdfEoO,guid=3ada127b0e41b6e1efa1376955faccf5
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+WINDOWPATH=1
+XDG_RUNTIME_DIR=/run/user/1000
+DISPLAY=:0
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+PERL_MM_OPT=INSTALL_BASE=/home/mjs/perl5
+XAUTHORITY=/run/gdm/auth-for-mjs-a72yKG/database
+COLORTERM=gnome-terminal
+_=/usr/bin/env
+[mjs@localhost ~]$ export $MJS_PATH=/home/mjs/
+bash: export: `=/home/mjs/': not a valid identifier
+[mjs@localhost ~]$ export $MJS_PATH="/home/mjs/"
+bash: export: `=/home/mjs/': not a valid identifier
+[mjs@localhost ~]$ exit
+exit
+[mjs@localhost ~]$ setenv $MJS_PATH /home/mjs/
+bash: setenv: command not found...
+[mjs@localhost ~]$ export $MJS_PATH = "/home/mjs/"
+bash: export: `=': not a valid identifier
+bash: export: `/home/mjs/': not a valid identifier
+[mjs@localhost ~]$ export $MJS_PATH "/home/mjs/"
+bash: export: `/home/mjs/': not a valid identifier
+[mjs@localhost ~]$ /usr/bin/bash
+bash        bashbug     bashbug-64  
+[mjs@localhost ~]$ /usr/bin/bash
+[mjs@localhost ~]$ export $MJS_PATH=/home/mjs
+bash: export: `=/home/mjs': not a valid identifier
+[mjs@localhost ~]$ man export
+[mjs@localhost ~]$ clear
+@localhost ~]$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
