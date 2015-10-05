@@ -1,0 +1,4 @@
+File type not char
+File file.txt opened and reads as follows: 
+Hello World!
+Writing to file: Hello to you too!
