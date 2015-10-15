@@ -1,0 +1,28 @@
+Parent PID: 1356
+Child 1 PID: 1357
+File file.txt opened and reads as follows: 
+Hello World!
+Writing to file: Hello to you too!
+Child 1 Complete
+Child 2 PID: 1358
+File file.txt opened and reads as follows: 
+Hello World!
+Hello to you too!
+Writing to file: Hello to you too!
+Child 2 Complete
+Child 3 PID: 1359
+File file.txt opened and reads as follows: 
+Hello World!
+Hello to you too!
+Hello to you too!
+Writing to file: Hello to you too!
+Child 3 Complete
+Child 4 PID: 1360
+File file.txt opened and reads as follows: 
+Hello World!
+Hello to you too!
+Hello to you too!
+Hello to you too!
+Writing to file: Hello to you too!
+Child 4 Complete
+All children complete

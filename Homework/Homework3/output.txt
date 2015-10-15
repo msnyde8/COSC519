@@ -1,0 +1,24 @@
+File file.txt opened and reads as follows: 
+Hello World!
+Writing to file: Hello to you too!
+File file.txt opened and reads as follows: 
+Hello World!
+Hello to you too!
+Writing to file: Hello to you too!
+File file.txt opened and reads as follows: 
+Hello World!
+Hello to you too!
+Hello to you too!
+Writing to file: Hello to you too!
+File file.txt opened and reads as follows: 
+Hello World!
+Hello to you too!
+Hello to you too!
+Hello to you too!
+Writing to file: Hello to you too!
+Parent PID: 18445
+Child 1 Complete
+Child 2 Complete
+Child 3 Complete
+Child 4 Complete
+All children complete
